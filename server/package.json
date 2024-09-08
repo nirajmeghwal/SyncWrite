@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix client && npm run build --prefix client"
+    "build":"npm install --legacy-peer-deps && npm install ajv@latest ajv-keywords@latest client && npm install --legacy-peer-deps --prefix client && npm run build --prefix client"
     
   },
   "author": "",
